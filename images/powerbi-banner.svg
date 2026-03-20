@@ -1,0 +1,45 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="100%" viewBox="0 0 620 200">
+  <defs>
+    <linearGradient id="bg2" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#1a2540"/>
+      <stop offset="100%" stop-color="#0e172b"/>
+    </linearGradient>
+    <linearGradient id="areaGrad" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#378ADD" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#378ADD" stop-opacity="0.0"/>
+    </linearGradient>
+    <linearGradient id="areaGrad2" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#D4537E" stop-opacity="0.4"/>
+      <stop offset="100%" stop-color="#D4537E" stop-opacity="0.0"/>
+    </linearGradient>
+  </defs>
+  <rect width="620" height="200" rx="0" fill="url(#bg2)"/>
+  <rect x="16" y="16" width="120" height="52" rx="6" fill="#ffffff" fill-opacity="0.05" stroke="#378ADD" stroke-width="0.5" stroke-opacity="0.4"/>
+  <rect x="148" y="16" width="120" height="52" rx="6" fill="#ffffff" fill-opacity="0.05" stroke="#D4537E" stroke-width="0.5" stroke-opacity="0.4"/>
+  <rect x="280" y="16" width="120" height="52" rx="6" fill="#ffffff" fill-opacity="0.05" stroke="#EF9F27" stroke-width="0.5" stroke-opacity="0.4"/>
+  <text font-family="monospace" font-size="18" font-weight="bold" fill="#85B7EB" x="28" y="47">$84.2K</text>
+  <text font-family="monospace" font-size="9" fill="#378ADD" opacity="0.7" x="28" y="60">Revenue</text>
+  <text font-family="monospace" font-size="18" font-weight="bold" fill="#ED93B1" x="160" y="47">2,481</text>
+  <text font-family="monospace" font-size="9" fill="#D4537E" opacity="0.7" x="160" y="60">Orders</text>
+  <text font-family="monospace" font-size="18" font-weight="bold" fill="#FAC775" x="292" y="47">94.3%</text>
+  <text font-family="monospace" font-size="9" fill="#EF9F27" opacity="0.7" x="292" y="60">On-Time</text>
+  <circle cx="524" cy="96" r="48" fill="none" stroke="#1a2a45" stroke-width="14"/>
+  <circle cx="524" cy="96" r="48" fill="none" stroke="#378ADD" stroke-width="14" stroke-dasharray="120 182" stroke-dashoffset="0" opacity="0.9"/>
+  <circle cx="524" cy="96" r="48" fill="none" stroke="#D4537E" stroke-width="14" stroke-dasharray="60 182" stroke-dashoffset="-120" opacity="0.85"/>
+  <circle cx="524" cy="96" r="48" fill="none" stroke="#EF9F27" stroke-width="14" stroke-dasharray="40 182" stroke-dashoffset="-180" opacity="0.85"/>
+  <text font-family="monospace" font-size="12" font-weight="bold" fill="#E6F1FB" text-anchor="middle" x="524" y="100">72%</text>
+  <polyline points="16,168 60,155 100,160 140,140 180,148 220,130 260,135 300,118 340,125 380,108 410,115" fill="none" stroke="#378ADD" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" opacity="0.85"/>
+  <polygon points="16,168 60,155 100,160 140,140 180,148 220,130 260,135 300,118 340,125 380,108 410,115 410,185 16,185" fill="url(#areaGrad)"/>
+  <polyline points="16,180 60,172 100,165 140,168 180,158 220,162 260,155 300,148 340,152 380,140 410,145" fill="none" stroke="#D4537E" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" opacity="0.7"/>
+  <polygon points="16,180 60,172 100,165 140,168 180,158 220,162 260,155 300,148 340,152 380,140 410,145 410,185 16,185" fill="url(#areaGrad2)"/>
+  <g stroke="#378ADD" stroke-width="0.4" opacity="0.3">
+    <line x1="60" y1="183" x2="60" y2="188"/><line x1="140" y1="183" x2="140" y2="188"/>
+    <line x1="220" y1="183" x2="220" y2="188"/><line x1="300" y1="183" x2="300" y2="188"/>
+    <line x1="380" y1="183" x2="380" y2="188"/>
+  </g>
+  <text font-family="monospace" font-size="8" fill="#85B7EB" opacity="0.5" x="60" y="198" text-anchor="middle">Q1</text>
+  <text font-family="monospace" font-size="8" fill="#85B7EB" opacity="0.5" x="140" y="198" text-anchor="middle">Q2</text>
+  <text font-family="monospace" font-size="8" fill="#85B7EB" opacity="0.5" x="220" y="198" text-anchor="middle">Q3</text>
+  <text font-family="monospace" font-size="8" fill="#85B7EB" opacity="0.5" x="300" y="198" text-anchor="middle">Q4</text>
+  <rect x="0" y="0" width="620" height="3" rx="2" fill="#378ADD" opacity="0.4"/>
+</svg>
