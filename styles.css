@@ -1,6 +1,7 @@
 .project-image {
   height: 200px;
   overflow: hidden;
+  border-radius: 12px 12px 0 0;
 }
 
 .project-image img {
@@ -8,4 +9,12 @@
   height: 100%;
   object-fit: cover;
   display: block;
+}
+
+.project-card {
+  overflow: hidden;
+}
+
+.about-text p {
+  text-align: justify;
 }
