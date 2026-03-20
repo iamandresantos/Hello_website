@@ -10,7 +10,7 @@
             padding: 0;
             box-sizing: border-box;
         }
-
+ 
         :root {
             --primary: #2563eb;
             --secondary: #1e40af;
@@ -20,15 +20,14 @@
             --bg-alt: #f9fafb;
             --border: #e5e7eb;
         }
-
+ 
         body {
             font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
             line-height: 1.6;
             color: var(--text);
             background: var(--bg);
         }
-
-        /* Header/Navigation */
+ 
         header {
             background: var(--bg);
             border-bottom: 1px solid var(--border);
@@ -37,7 +36,7 @@
             z-index: 100;
             box-shadow: 0 1px 3px rgba(0,0,0,0.1);
         }
-
+ 
         nav {
             max-width: 1200px;
             margin: 0 auto;
@@ -46,38 +45,37 @@
             justify-content: space-between;
             align-items: center;
         }
-
+ 
         .logo {
             font-size: 1.5rem;
             font-weight: 700;
             color: var(--primary);
         }
-
+ 
         .nav-links {
             display: flex;
             gap: 2rem;
             list-style: none;
         }
-
+ 
         .nav-links a {
             color: var(--text);
             text-decoration: none;
             font-weight: 500;
             transition: color 0.3s;
         }
-
+ 
         .nav-links a:hover {
             color: var(--primary);
         }
-
-        /* Hero Section */
+ 
         .hero {
             max-width: 1200px;
             margin: 0 auto;
             padding: 6rem 2rem;
             text-align: center;
         }
-
+ 
         .hero h1 {
             font-size: 3.5rem;
             margin-bottom: 1rem;
@@ -86,20 +84,20 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
         }
-
+ 
         .hero .tagline {
             font-size: 1.5rem;
             color: var(--text-light);
             margin-bottom: 2rem;
         }
-
+ 
         .cta-buttons {
             display: flex;
             gap: 1rem;
             justify-content: center;
             flex-wrap: wrap;
         }
-
+ 
         .btn {
             padding: 0.75rem 2rem;
             border-radius: 0.5rem;
@@ -108,63 +106,61 @@
             transition: all 0.3s;
             display: inline-block;
         }
-
+ 
         .btn-primary {
             background: var(--primary);
             color: white;
         }
-
+ 
         .btn-primary:hover {
             background: var(--secondary);
             transform: translateY(-2px);
             box-shadow: 0 4px 12px rgba(37, 99, 235, 0.3);
         }
-
+ 
         .btn-secondary {
             border: 2px solid var(--primary);
             color: var(--primary);
         }
-
+ 
         .btn-secondary:hover {
             background: var(--primary);
             color: white;
         }
-
-        /* Section Styles */
+ 
         section {
             max-width: 1200px;
             margin: 0 auto;
             padding: 4rem 2rem;
         }
-
+ 
         section h2 {
             font-size: 2.5rem;
             margin-bottom: 3rem;
             text-align: center;
             color: var(--text);
         }
-
-        /* About Section */
+ 
         .about-content {
             display: grid;
             grid-template-columns: 1fr 1fr;
             gap: 3rem;
             align-items: center;
         }
-
+ 
         .about-text p {
             margin-bottom: 1rem;
             color: var(--text-light);
             line-height: 1.8;
         }
-
+ 
         .skills {
             display: flex;
             flex-wrap: wrap;
             gap: 0.5rem;
             margin-top: 1.5rem;
         }
-
+ 
         .skill-tag {
             background: var(--bg-alt);
             padding: 0.5rem 1rem;
@@ -173,14 +169,13 @@
             color: var(--text);
             border: 1px solid var(--border);
         }
-
-        /* Projects Section */
+ 
         .projects-grid {
             display: grid;
             grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
             gap: 2rem;
         }
-
+ 
         .project-card {
             background: var(--bg);
             border: 1px solid var(--border);
@@ -188,12 +183,12 @@
             overflow: hidden;
             transition: transform 0.3s, box-shadow 0.3s;
         }
-
+ 
         .project-card:hover {
             transform: translateY(-5px);
             box-shadow: 0 10px 30px rgba(0,0,0,0.1);
         }
-
+ 
         .project-image {
             width: 100%;
             height: 200px;
@@ -204,46 +199,45 @@
             color: white;
             font-size: 3rem;
         }
-
+ 
         .project-content {
             padding: 1.5rem;
         }
-
+ 
         .project-content h3 {
             margin-bottom: 0.5rem;
             color: var(--text);
         }
-
+ 
         .project-content p {
             color: var(--text-light);
             margin-bottom: 1rem;
         }
-
+ 
         .project-links {
             display: flex;
             gap: 1rem;
         }
-
+ 
         .project-links a {
             color: var(--primary);
             text-decoration: none;
             font-weight: 600;
             font-size: 0.9rem;
         }
-
-        /* Experience Section */
+ 
         .experience-timeline {
             max-width: 800px;
             margin: 0 auto;
         }
-
+ 
         .experience-item {
             padding-left: 2rem;
             border-left: 2px solid var(--primary);
             margin-bottom: 2rem;
             position: relative;
         }
-
+ 
         .experience-item::before {
             content: '';
             width: 12px;
@@ -254,41 +248,40 @@
             left: -7px;
             top: 0;
         }
-
+ 
         .experience-item h3 {
             color: var(--text);
             margin-bottom: 0.25rem;
         }
-
+ 
         .experience-meta {
             color: var(--text-light);
             font-size: 0.9rem;
             margin-bottom: 0.5rem;
         }
-
+ 
         .experience-item p {
             color: var(--text-light);
         }
-
-        /* Contact Section */
+ 
         .contact-content {
             max-width: 600px;
             margin: 0 auto;
             text-align: center;
         }
-
+ 
         .contact-content p {
             color: var(--text-light);
             margin-bottom: 2rem;
         }
-
+ 
         .contact-links {
             display: flex;
             justify-content: center;
             gap: 1.5rem;
             flex-wrap: wrap;
         }
-
+ 
         .contact-links a {
             display: flex;
             align-items: center;
@@ -301,14 +294,13 @@
             text-decoration: none;
             transition: all 0.3s;
         }
-
+ 
         .contact-links a:hover {
             border-color: var(--primary);
             background: white;
             transform: translateY(-2px);
         }
-
-        /* Footer */
+ 
         footer {
             background: var(--bg-alt);
             border-top: 1px solid var(--border);
@@ -316,25 +308,24 @@
             text-align: center;
             color: var(--text-light);
         }
-
-        /* Responsive */
+ 
         @media (max-width: 768px) {
             .hero h1 {
                 font-size: 2.5rem;
             }
-
+ 
             .hero .tagline {
                 font-size: 1.2rem;
             }
-
+ 
             .about-content {
                 grid-template-columns: 1fr;
             }
-
+ 
             .nav-links {
                 gap: 1rem;
             }
-
+ 
             section {
                 padding: 3rem 1.5rem;
             }
@@ -353,28 +344,28 @@
             </ul>
         </nav>
     </header>
-
+ 
     <section class="hero">
         <h1>Hi, I'm André Santos</h1>
-        <p class="tagline">Data Analist | Problem Solver | Tech Enthusiast</p>
+        <p class="tagline">Data Analyst | Problem Solver | Tech Enthusiast</p>
         <div class="cta-buttons">
             <a href="#contact" class="btn btn-primary">Get In Touch</a>
             <a href="#projects" class="btn btn-secondary">View My Work</a>
         </div>
     </section>
-
+ 
     <section id="about">
         <h2>About Me</h2>
         <div class="about-content">
             <div class="about-text">
-                <p>I'm André Santos, an analyst who believes that the details matter. Throughout my career—from ensuring quality standards in automotive manufacturing to managing international customs operations at FedEx—I've learned that precision and thorough analysis are the foundation of meaningful results.</p>
+                <p>I'm André Santos, an analyst who believes that the details matter. Throughout my career — from ensuring quality standards in automotive manufacturing to managing international customs operations at FedEx — I've learned that precision and thorough analysis are the foundation of meaningful results.</p>
                 <p>I'm naturally curious and passionate about learning. Whether it's mastering a new analytical tool, understanding complex processes, or tackling challenging problems, I approach every opportunity with enthusiasm and focus. Technology fascinates me, and I'm constantly exploring how it can be leveraged to work smarter and more efficiently.</p>
                 <div class="skills">
                     <span class="skill-tag">Excel</span>
                     <span class="skill-tag">Power BI</span>
                     <span class="skill-tag">SQL</span>
                     <span class="skill-tag">Python</span>
-                    <span class="skill-tag">AS 400</span>
+                    <span class="skill-tag">AS/400</span>
                     <span class="skill-tag">Git</span>
                     <span class="skill-tag">Power Apps</span>
                 </div>
@@ -384,76 +375,71 @@
             </div>
         </div>
     </section>
-
+ 
     <section id="projects">
         <h2>Featured Projects</h2>
         <div class="projects-grid">
+ 
             <div class="project-card">
                 <div class="project-image">🚀</div>
                 <div class="project-content">
-                    <h3>Project One</h3>
-                    <p>A full-stack web application built with React and Node.js. Features real-time updates and user authentication.</p>
+                    <h3>Excel Analytics Model</h3>
+                    <p>An Excel Analytics Model built with synthetic data replicating a real logistics company — exploring Excel functions, Power Query, Pivot Tables and VBA.</p>
                     <div class="project-links">
                         <a href="#">View Demo →</a>
-                        <a href="#">GitHub →</a>
+                        <a href="https://github.com/iamandresantos/Excel_Dashboard">GitHub →</a>
                     </div>
                 </div>
             </div>
-
+ 
             <div class="project-card">
                 <div class="project-image">💡</div>
                 <div class="project-content">
-                    <h3>Project Two</h3>
-                    <p>An innovative solution for task management with drag-and-drop functionality and data visualization.</p>
+                    <h3>Power BI Dashboard</h3>
+                    <p>An interactive Power BI Dashboard — covering data modeling, DAX measures, and visual storytelling.</p>
                     <div class="project-links">
                         <a href="#">View Demo →</a>
-                        <a href="#">GitHub →</a>
+                        <a href="https://github.com/iamandresantos/Power_BI_Dashboard">GitHub →</a>
                     </div>
                 </div>
             </div>
-
-            <div class="project-card">
-                <div class="project-image">🎨</div>
-                <div class="project-content">
-                    <h3>Project Three</h3>
-                    <p>A creative portfolio showcasing responsive design principles and modern CSS animations.</p>
-                    <div class="project-links">
-                        <a href="#">View Demo →</a>
-                        <a href="#">GitHub →</a>
-                    </div>
-                </div>
-            </div>
+ 
+          
+ 
         </div>
     </section>
-
+ 
     <section id="experience">
         <h2>Experience</h2>
         <div class="experience-timeline">
+ 
             <div class="experience-item">
-                <h3>Clearance Borker</h3>
-                <div class="experience-meta">FedEx Express | Porto, Portugal | 2021 - 2025</div>
+                <h3>Clearance Broker Coordinator</h3>
+                <div class="experience-meta">FedEx Express | Porto, Portugal | 2021 – 2025</div>
                 <p>Analyzed customs documentation and shipment data to ensure regulatory compliance and identify process bottlenecks. Created comprehensive reports and interactive dashboards using Excel and Power BI to track KPIs, including clearance quality and productivity metrics for management. Conducted root cause analysis on delayed shipments, implementing corrective measures that reduced processing time. Mentored junior brokers on data validation procedures.</p>
             </div>
-
+ 
             <div class="experience-item">
                 <h3>Production Quality Analyst</h3>
-                <div class="experience-meta">Mora | Viana do Castelo, Portugal | 2018 - 2021</div>
-                <p>Monitored and analyzed production quality metrics for automotive component manufacturing, conducting statistical process control and implementing corrective actions to maintain ISO/IATF quality standards. Executed data cleaning procedures including error correction, duplicate removal, and format standardization for database readiness. Generated weekly quality reports and dashboards for cross-functional teams, facilitating data-driven decision-making. </p>
+                <div class="experience-meta">Mora | Viana do Castelo, Portugal | 2018 – 2021</div>
+                <p>Monitored and analyzed production quality metrics for automotive component manufacturing, conducting statistical process control and implementing corrective actions to maintain ISO/IATF quality standards. Executed data cleaning procedures including error correction, duplicate removal, and format standardization for database readiness. Generated weekly quality reports and dashboards for cross-functional teams, facilitating data-driven decision-making.</p>
             </div>
-
+ 
             <div class="experience-item">
-                <h3>ERASMUS+</h3>
-                <div class="experience-meta">Polha Varese | Varese, Italy | 2017 - 2018</div>
+                <h3>Erasmus+ Exchange</h3>
+                <div class="experience-meta">Polha Varese | Varese, Italy | 2017 – 2018</div>
                 <p>Supported daily operations for a sports organization serving athletes with disabilities, managing administrative workflows and financial documentation. Designed and implemented an invoice database system to streamline financial record-keeping and improve data accessibility. Collaborated with international volunteers and stakeholders, developing strong cross-cultural communication skills in a multicultural environment.</p>
             </div>
+ 
             <div class="experience-item">
-                <h3>Internship</h3>
-                <div class="experience-meta">Banco Espírito Santo | Viana do Castelo, Portugal | 2014 - 2014</div>
-                <p> Supported daily banking operations and data management activities in a fast-paced financial environment. Cleaned, validated, and prepared financial data for database integration, performing quality checks to maintain data integrity. Assisted in reconciling daily transactions and identifying discrepancies in account records through systematic data analysis. </p>
+                <h3>Banking Internship</h3>
+                <div class="experience-meta">Banco Espírito Santo | Viana do Castelo, Portugal | 2014</div>
+                <p>Supported daily banking operations and data management activities in a fast-paced financial environment. Cleaned, validated, and prepared financial data for database integration, performing quality checks to maintain data integrity. Assisted in reconciling daily transactions and identifying discrepancies in account records through systematic data analysis.</p>
             </div>
+ 
         </div>
     </section>
-
+ 
     <section id="contact">
         <h2>Get In Touch</h2>
         <div class="contact-content">
@@ -466,13 +452,12 @@
             </div>
         </div>
     </section>
-
+ 
     <footer>
-        <p>&copy; 2025 André Santos. Built with precision and passion. </p>
+        <p>&copy; 2025 André Santos. Built with precision and passion.</p>
     </footer>
-
+ 
     <script>
-        // Smooth scrolling for navigation links
         document.querySelectorAll('a[href^="#"]').forEach(anchor => {
             anchor.addEventListener('click', function (e) {
                 e.preventDefault();
