@@ -5,11 +5,11 @@ Welcome to my personal website repository.
 
 This project showcases some information about myself. 
 
-It includes past and present work experiences and projects I build, and some skills and languages I learn. It also shows some certifications and awards I receive.
+It includes past and present work experiences, projects I built and some skills and languages I learned.
 
 ## About
 
-This personal portfolio website is hosted at: 
+This personal portfolio website is hosted at: https://andredossantos.netlify.app/
 
 
 ## 📂 Project Structure:
@@ -20,10 +20,10 @@ This personal portfolio website is hosted at:
 ## 👤 Author:
 André dos Santos
 
-Website: 
+Website: https://andredossantos.netlify.app/
 
 GitHub: @iamandresantos
 
 Email: andreradosssantos@gmail.com
 
-*Last updated: December 2025*
+*Last updated: March 2026*
